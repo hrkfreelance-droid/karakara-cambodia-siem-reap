@@ -12,6 +12,10 @@
 
 空欄の情報は本番UIから非表示になります。Maps URLは依頼指定のSiem Reap URLを設定済みです。FoodpandaはSiem Reap店の指定URLを通常のHTTPSリンクで設定しています。
 
+## Preview
+
+- [Open site preview](https://hrkfreelance-droid.github.io/karakara-cambodia-siem-reap/)
+
 ## Links
 
 - [GitHub Repository](https://github.com/hrkfreelance-droid/karakara-cambodia-siem-reap)
