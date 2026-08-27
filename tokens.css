@@ -1,0 +1,50 @@
+/* Hallmark · theme: karakara-night-v2 · paper-band: dark / display-style: neutral-sans / accent-hue: warm-red */
+:root {
+  --color-page: oklch(13% 0.018 24);
+  --color-ink: oklch(97% 0.012 80);
+  --color-muted: oklch(82% 0.018 74);
+  --color-footer: oklch(73% 0.018 74);
+  --color-accent: oklch(58% 0.203 29);
+  --color-accent-soft: oklch(32% 0.075 29);
+  --color-on-accent: oklch(98% 0.012 80);
+  --color-panel: oklch(20% 0.018 24 / 0.68);
+  --color-panel-border: oklch(96% 0.012 80 / 0.19);
+  --color-pill: oklch(5% 0.012 24 / 0.52);
+  --color-pill-border: oklch(96% 0.012 80 / 0.2);
+  --color-button-light: oklch(96% 0.012 80 / 0.16);
+  --color-button-light-hover: oklch(96% 0.012 80 / 0.24);
+  --color-button-dark: oklch(13% 0.018 24 / 0.76);
+  --color-button-dark-hover: oklch(20% 0.018 24 / 0.88);
+  --color-button-menu: oklch(48% 0.17 29 / 0.92);
+  --color-button-menu-hover: oklch(54% 0.19 29 / 0.98);
+  --color-button-border: oklch(96% 0.012 80 / 0.1);
+  --color-dialog: oklch(16% 0.018 24 / 0.98);
+  --color-backdrop: oklch(4% 0.012 24 / 0.82);
+  --color-overlay-top: oklch(5% 0.012 24 / 0.56);
+  --color-overlay-bottom: oklch(5% 0.012 24 / 0.82);
+  --color-transparent: oklch(0% 0 0 / 0);
+
+  --font-body: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Syne", "Helvetica Neue", sans-serif;
+
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+
+  --text-xs: 0.7rem;
+  --text-sm: 0.82rem;
+  --text-md: 1rem;
+
+  --radius-button: 0.75rem;
+  --radius-card: 1.125rem;
+
+  --dur-instant: 100ms;
+  --dur-short: 180ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --shadow-logo: 0 0.5rem 2rem oklch(4% 0.01 20 / 0.58);
+  --shadow-panel: 0 1rem 3rem oklch(4% 0.01 20 / 0.28);
+  --shadow-dot: 0 0 0.45rem oklch(58% 0.203 29 / 0.68);
+}
