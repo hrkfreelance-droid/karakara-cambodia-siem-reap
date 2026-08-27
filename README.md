@@ -11,3 +11,9 @@
 3. Netlifyへフォルダごとデプロイ
 
 空欄の情報は本番UIから非表示になります。Maps URLは依頼指定のSiem Reap URLを設定済みです。FoodpandaはSiem Reap店の指定URLを通常のHTTPSリンクで設定しています。
+
+## Links
+
+- [GitHub Repository](https://github.com/hrkfreelance-droid/karakara-cambodia-siem-reap)
+- [Google Maps](https://maps.app.goo.gl/hwzip64tuUycgDV17)
+- [Foodpanda](https://www.foodpanda.com.kh/en/restaurant/xy2f/karakara-spicy-ramen-restaurant-siem-reap)
