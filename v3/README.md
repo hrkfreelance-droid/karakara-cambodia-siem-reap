@@ -2,7 +2,7 @@
 
 軽量な1ページ静的サイトです。ビルドコマンドは不要で、このフォルダをそのまま公開ディレクトリとして配置できます。
 
-**Live preview URL:** Not published yet
+**Live preview URL:** [https://hrkfreelance-droid.github.io/karakara-cambodia-siem-reap/v3/](https://hrkfreelance-droid.github.io/karakara-cambodia-siem-reap/v3/)
 
 V3は、V2の要素・機能・データを一切変えず、Typography / Layout rhythm / Visual hierarchy / Motion / Micro interaction の品質だけを引き上げたビジュアルアップグレードです。背景イラスト・ロゴ・店舗情報・各リンク・menu.pdf はV2と同一のものを使用しています。
 
