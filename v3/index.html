@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#171313">
+    <meta name="description" content="KARAKARA Cambodia — Siem Reap store information, location, and menu.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="KARAKARA Cambodia / Siem Reap">
+    <meta property="og:description" content="KARAKARA Cambodia — Siem Reap store information, location, and menu.">
+    <title>KARAKARA Cambodia / Siem Reap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tokens.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!--
+      THESIS: A compact, photo-led store access page for fast visit decisions.
+      OWN-WORLD: The supplied KARAKARA artwork kept alive under layered, very weak scrims — no glass cards.
+      STORY: Brand mark, Siem Reap, confirmed store details, then Call / Location / Menu / Foodpanda.
+      FIRST VIEWPORT: Everything. One optically centered column, no scroll required.
+      FORM: Typography, spacing and hairlines carry the hierarchy; motion only settles the page once.
+      FINISH: V3 raises typography, rhythm and interaction quality only — assets and data are unchanged.
+    -->
+    <div class="site-background" aria-hidden="true">
+      <div class="site-background__image"></div>
+    </div>
+    <div class="site-scrim" aria-hidden="true"></div>
+
+    <main class="page" id="top">
+      <div class="main-block">
+        <section class="hero" aria-labelledby="site-title">
+          <div class="logo-wrap">
+            <img data-logo src="assets/logo.svg" alt="KARAKARA" width="232" height="232">
+          </div>
+          <p class="locale">
+            <span class="locale__rule" aria-hidden="true"></span>
+            <span class="locale__text" data-field="city">Siem Reap</span>
+            <span class="locale__rule" aria-hidden="true"></span>
+          </p>
+        </section>
+
+        <section class="store-section" aria-labelledby="site-title">
+          <article class="store-info">
+            <div class="store-header">
+              <h1 class="store-name" id="site-title" data-field="storeName">KARAKARA</h1>
+            </div>
+            <div class="store-meta" data-optional="hours" hidden>
+              <span data-field="hours"></span>
+            </div>
+            <div class="store-address" data-optional="address" hidden>
+              <span data-field="address"></span>
+            </div>
+
+            <div class="store-actions" data-action-count="2">
+              <a class="action-button action-button--dark" data-action="call" hidden>
+                <span>Call</span>
+              </a>
+              <a class="action-button action-button--dark" data-action="location" target="_blank" rel="noopener">
+                <span>Location</span>
+              </a>
+              <a class="action-button action-button--menu" data-action="menu" data-menu-link href="assets/menu.pdf" target="_blank" rel="noopener">
+                <span>Menu</span>
+              </a>
+            </div>
+
+            <a class="action-button action-button--foodpanda foodpanda-link" data-foodpanda hidden>
+              <span>Order on Foodpanda</span>
+              <span class="action-button__ext" aria-hidden="true">↗</span>
+            </a>
+          </article>
+        </section>
+
+        <nav class="social-row" data-socials aria-label="Social links" hidden></nav>
+      </div>
+
+      <footer class="footer">
+        <span>© <span data-footer-year>2026</span> <span data-field="brandName">KARAKARA</span> Cambodia</span>
+      </footer>
+    </main>
+
+    <script src="site-config.js?v=20260827-3"></script>
+    <script src="script.js?v=20260827-3"></script>
+  </body>
+</html>
