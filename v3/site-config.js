@@ -12,7 +12,7 @@ window.KARAKARA_CONFIG = Object.freeze({
   logoPath: "assets/logo.svg",
   backgroundPath: "assets/background.png",
   menuPdf: "assets/menu.pdf",
-  foodpandaUrl: "https://www.foodpanda.com.kh/en/restaurant/xy2f/karakara-spicy-ramen-restaurant-siem-reap",
+  foodpandaUrl: "https://foodpanda.go.link/3zgd0",
   instagramUrl: "",
   facebookUrl: ""
 });
