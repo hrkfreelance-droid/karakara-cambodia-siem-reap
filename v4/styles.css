@@ -637,6 +637,95 @@ button {
   .store-address {
     text-shadow: 0 1px 2px oklch(4% 0.012 26 / 0.7), 0 0.5rem 1.75rem oklch(4% 0.012 26 / 0.55);
   }
+
+  /* --- the tightening ---------------------------------------------
+     Bigger type on a phone only reads as bigger if the gaps shrink
+     with it. Everything below pulls mark, place, details and actions
+     into one dense block, so the page gains weight instead of length.
+     ---------------------------------------------------------------- */
+
+  .page {
+    padding-inline: var(--space-4);
+    /* The block lost height when it tightened, so re-balance the
+       optical centre instead of leaving it riding high. */
+    grid-template-rows: minmax(0, 0.95fr) auto minmax(0, 1fr);
+  }
+
+  .logo-wrap {
+    width: min(11rem, 48vw);
+  }
+
+  .hero {
+    gap: var(--space-4);
+  }
+
+  .locale {
+    max-width: 13rem;
+  }
+
+  .locale__rule {
+    max-width: 2.5rem;
+  }
+
+  .store-section {
+    margin-top: var(--space-5);
+  }
+
+  .store-header {
+    padding-top: var(--space-4);
+  }
+
+  /* One accent-cored hairline instead of a neutral one — the only
+     colour in the type block, and it ties the rule to the mark. */
+  .store-header::before {
+    max-width: 12rem;
+    background: linear-gradient(
+      to right,
+      transparent,
+      var(--line-soft) 18%,
+      var(--color-accent-strong) 50%,
+      var(--line-soft) 82%,
+      transparent
+    );
+    opacity: 0.85;
+  }
+
+  .store-meta {
+    margin-top: var(--space-3);
+  }
+
+  .store-address {
+    margin-top: 0.125rem;
+  }
+
+  .store-actions {
+    margin-top: var(--space-5);
+    gap: 0.375rem;
+  }
+
+  .foodpanda-link {
+    margin-top: 0.375rem;
+    min-height: 3rem;
+  }
+
+  /* The tighter cluster wants a tighter halo behind it. */
+  .main-block::before {
+    inset: -3.5rem -2.5rem -4rem;
+    filter: blur(14px);
+  }
+
+  /* The primary action carries the accent, so let it read as primary. */
+  .action-button--menu {
+    box-shadow: 0 0.5rem 1.5rem oklch(40% 0.16 29 / 0.34), inset 0 1px 0 oklch(99% 0.005 85 / 0.18);
+  }
+
+  .social-row {
+    margin-top: var(--space-3);
+  }
+
+  .footer {
+    padding-top: var(--space-4);
+  }
 }
 
 /* Short viewports — keep everything above the fold. */

@@ -14,7 +14,9 @@
 
 ## Preview
 
-- [Open site preview](https://hrkfreelance-droid.github.io/karakara-cambodia-siem-reap/)
+- [Open site preview (V2 / root)](https://hrkfreelance-droid.github.io/karakara-cambodia-siem-reap/)
+- [V3 preview](https://hrkfreelance-droid.github.io/karakara-cambodia-siem-reap/v3/)
+- [V4 preview](https://hrkfreelance-droid.github.io/karakara-cambodia-siem-reap/v4/) — スマホ表示の文字サイズ最適化＋レイアウトを凝縮（最新）
 
 ## Links
 
