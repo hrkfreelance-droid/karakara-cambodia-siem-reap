@@ -20,6 +20,10 @@
 
 ## Netlify（本番公開）
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/hrkfreelance-droid/karakara-cambodia-siem-reap)
+
+上のボタンから、GitHub 連携込みのデプロイをそのまま開始できます。`netlify.toml` が読まれるので、公開ディレクトリの設定は不要です。
+
 `netlify.toml` で公開ディレクトリを **`v4`** に指定しています。Netlify 側の管理画面で Publish directory を設定する必要はありません。
 
 - 本番 URL のルート `/` に **V4** が出ます（`/v4/` というパスは付きません）
