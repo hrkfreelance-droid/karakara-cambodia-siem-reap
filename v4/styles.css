@@ -651,8 +651,12 @@ button {
     grid-template-rows: minmax(0, 0.95fr) auto minmax(0, 1fr);
   }
 
+  /* ~130% of the V3 mark. At this size the lockup's own
+     "KARA KARA SPICY RAMEN" line becomes readable on a phone, which is
+     the whole point; past ~140% the circle crowds the column edges and
+     starts covering the artwork it is supposed to sit in. */
   .logo-wrap {
-    width: min(11rem, 48vw);
+    width: min(14.25rem, 59vw);
   }
 
   .hero {
@@ -749,6 +753,15 @@ button {
 
   .store-actions {
     margin-top: var(--space-5);
+  }
+}
+
+/* Short phones — the rule above would drop the mark back below the V3
+   size, which reads as a bug next to the taller phones. Scale it down
+   from the V4 size instead, still comfortably above the fold. */
+@media (max-width: 29.9375rem) and (max-height: 43.75rem) {
+  .logo-wrap {
+    width: min(11.5rem, 46vw);
   }
 }
 
