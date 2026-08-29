@@ -1,0 +1,18 @@
+# Netlify deploy settings.
+#
+# The repo carries several generations of the site side by side: V2 at the
+# repo root, V3 under /v3, V4 under /v4. Each version folder is
+# self-contained (its own index.html, styles.css, tokens.css, script.js,
+# site-config.js and assets/), so the live version is chosen purely by
+# pointing `publish` at one of them.
+#
+# `publish` is the ONLY line to change when a new version ships. The
+# public URL never changes, so it stays safe to print on business cards,
+# the Google Business Profile, and in-store signage.
+#
+# Currently live: V4 (mobile type + logo pass on top of V3).
+
+[build]
+  publish = "v4"
+  # Static site — nothing to build.
+  command = ""
